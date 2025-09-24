@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthbender: An Interactive System for Stylistic Heightmap Generation</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Earthbender: An Interactive System for Stylistic Heightmap Generation using a Guided Diffusion Model</h1>
+        <h3>MIG '25</h3>
+        <p><strong>Danial Barazandeh & Gabriel Zachmann</strong></p>
+        <p><em>University of Bremen</em></p>
+    </header>
+
+    <main>
+        <img src="images/teaser.gif" alt="Earthbender UI Demo" style="width:100%; max-width:800px;">
+
+        <div class="links">
+            <a href="earthbender-paper.pdf" class="button">[Paper PDF]</a>
+            <a href="https://github.com/your-username/earthbender" class="button">[GitHub Code]</a>
+            </div>
+
+        <h2>Abstract</h2>
+        <p>
+            Games, 3D simulations, and cinematic pipelines depend on realistic 3D terrain for immersion. However, creating detailed 3D terrain is labour-intensive... 
+            </p>
+
+        <h2>Results</h2>
+        <p>Comparison of our method against Pix2PixHD on test sketches.</p>
+        <img src="images/results_1.png" alt="Qualitative results from the paper" style="width:100%; max-width:800px;">
+
+        <h2>Method Overview</h2>
+        <p>
+            Our system uses a multi-channel semantic sketch to guide a pre-trained Stable Diffusion model via a custom ControlNet...
+        </p>
+        <img src="images/workflow.png" alt="Earthbender system workflow" style="width:100%; max-width:600px;">
+
+        <h2>Citation</h2>
+        <p>If you find our work useful, please consider citing our paper:</p>
+        <pre><code>
+@inproceedings{barazandeh2025earthbender,
+  title={Earthbender: An Interactive System for Stylistic Heightmap Generation using a Guided Diffusion Model},
+  author={Barazandeh, Danial and Zachmann, Gabriel},
+  booktitle={Proceedings of the Motion, Interaction and Games Conference},
+  year={2025},
+  organization={ACM}
+}
+        </code></pre>
+    </main>
+
+</body>
+</html>
