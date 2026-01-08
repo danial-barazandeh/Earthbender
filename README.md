@@ -40,6 +40,16 @@ pip install lpips torch-fidelity  # For evaluation only
 
 ---
 
+## 📁 Dataset
+
+You can download our dataset from the following link:
+
+Download the [Dataset](https://drive.google.com/file/d/1AqWh-UDokv-lnOjEky4fJ0f6XY9DrIEW/view?usp=drive_link).
+
+*Note: This dataset consists of 400 pairs of sketch and heightmap; there are also separate files for validation and test. *
+
+---
+
 ## 🚀 Usage
 
 ### 1. Running the GUI (Inference)
