@@ -4,7 +4,7 @@
 
 This repository contains the official implementation of **Earthbender**, a sketch-conditioned diffusion framework for generating detailed 3D terrain heightmaps. The system allows users to sketch semantic features (mountains, rivers, lakes) and generates consistent heightmaps using a custom ControlNet architecture.
 
-![Earthbender GUI](screenshot.jpg)
+![Earthbender GUI](screenshot.png)
 
 ## 📂 File Structure
 
@@ -81,7 +81,7 @@ python evaluation.py \
 
 ## 📊 Results
 
-![Qualitative Results](compare.jpg)
+![Qualitative Results](compare.png)
 
 *Qualitative comparison between our method (ControlNet Hybrid) and baselines. Our approach generates significantly more coherent mountain ridges and river beds.*
 
