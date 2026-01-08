@@ -51,14 +51,14 @@ python guidancefree-gui-with3D.py
 * **Usage:** Draw on the left canvas. Select your model directory using the toolbar folder icon. Click "Run Inference" to generate the heightmap. Use the "Show 3D Preview" button to inspect the terrain in 3D.
 
 ### 2. Training
-To train the model using the proposed **Hybrid Loss** (Recommended):
+To train the model using the proposed **Hybrid Loss**:
 
 ```bash
 accelerate launch train_hybrid.py \
   --data_root ./path/to/dataset \
   --output_dir ./output_hybrid \
   --batch_size 4 \
-  --lake_loss_weight 10.0
+  --lake_loss_weight 1
 ```
 
 To train the baseline model (Standard Loss):
