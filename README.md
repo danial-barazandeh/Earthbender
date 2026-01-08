@@ -92,7 +92,7 @@ python evaluation.py \
 If you find this code useful for your research, please cite our MIG '25 paper:
 
 ```bibtex
-@inproceedings{BarazandehEarthbender,
+@inproceedings{10.1145/3769047.3769053,
 author = {Barazandeh, Danial and Zachmann, Gabriel},
 title = {Earthbender: An Interactive System for Stylistic Heightmap Generation using a Guided Diffusion Model},
 year = {2025},
